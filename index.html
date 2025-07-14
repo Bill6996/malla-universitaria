@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular</title>
+  <style>
+    body { font-family: Arial; background: #f8f9fa; margin: 20px; }
+    h1 { text-align: center; }
+    .semestre { border: 1px solid #ccc; margin: 10px; padding: 10px; border-radius: 10px; background: white; }
+    .curso { margin: 5px 0; padding: 8px; background: #e9ecef; border-radius: 5px; }
+    .curso:hover { background: #d4edda; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular - [Tu Carrera]</h1>
+
+  <div class="semestre">
+    <h2>Semestre 1</h2>
+    <div class="curso" onclick="alert('Prerrequisitos: Ninguno')">Introducción a la carrera</div>
+    <div class="curso" onclick="alert('Prerrequisitos: Ninguno')">Matemática Básica</div>
+    <div class="curso" onclick="alert('Prerrequisitos: Ninguno')">Comunicación Oral y Escrita</div>
+  </div>
+
+  <div class="semestre">
+    <h2>Semestre 2</h2>
+    <div class="curso" onclick="alert('Prerrequisitos: Matemática Básica')">Álgebra</div>
+    <div class="curso" onclick="alert('Prerrequisitos: Comunicación Oral y Escrita')">Taller de Lectura</div>
+  </div>
+
+</body>
+</html>
